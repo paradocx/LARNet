@@ -37,7 +37,7 @@ LARNet
 Training:
 - **MS1MV2**: Our main training dataset is [MS-Celeb-1M](https://www.microsoft.com/en-us/research/project/ms-celeb-1m-challenge-recognizing-one-million-celebrities-real-world/) .
 - **CASIA-WebFace**: In some comparative experiments, we use [CASIA-WebFace](https://arxiv.org/abs/1411.7923). You can downlaod form [Google Drive](https://drive.google.com/open?id=1Of_EVz-yHV7QVWQGihYfvtny9Ne8qXVz) or [Baidu Cloud](https://pan.baidu.com/s/1hQCOD4Kr66MOW0_PE8bL0w) with the key:y3wj.
-<br>
+
 Testing:
 - **IJBA**:  We use the aligned images provided from  [Google Drive](https://drive.google.com/file/d/11p1eVSpyHZQUG0uBGyRoFnOXXTuZ501c/view?usp=sharing)　or  [Baidu Cloud](https://pan.baidu.com/s/1xLi6zDqwAeXEMV4aWi1k3g). 
 - **CFP**: The original CFP dataset can be download from [Google Drive](https://drive.google.com/file/d/1B9QGThNd_-4Pg8O3si-EUYU9Px748p1C/view?usp=sharing) or [Baidu Yun](https://pan.baidu.com/s/1U_CzmLsJ2OaX4rJeJ7r92g). And we offer a test protocol for further processing.
