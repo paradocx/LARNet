@@ -79,7 +79,7 @@ Make sure training datasets (e.g. MV1MV2) are prepared well.
 cd LARNet/src/end2end
 python End2end_train.py
 ```
-After this, a model will be saved in the *--model_dir/checkpoint.pth.tar*
+After this, a model will be saved in the *--model_dir/checkpoint.pth.tar* <\br>
 If you want to change the gating control function or the architecture of residual subnet, you can change the part in the file *ResNet.py*.
 ```bash
 if self.end2end:
