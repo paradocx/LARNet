@@ -44,11 +44,11 @@ Testing:
 - ...
 
 ### Models
-- **Pretrained model**. Because our plugin method does not need to change the structure and parameters of any pretrained model, it can directly use clean features of other methods as inputs, e.g. ArcFace, CosFace, and our results. Here we give a small training sample picked from  MS1MV2 randomly and its corresponding name list.
-- **Pose labels**. We need to obtain the priori pose labels as inputs. Here we also provide a corresponding pose label file.
+- **Pretrained model** for plugin methods. Because our plugin method does not need to change the structure and parameters of any pretrained model, it can directly use clean features of other methods as inputs, e.g. ArcFace, CosFace, and our results. Here we give a small training sample picked from  MS1MV2 randomly and its corresponding name list.
+- **Pose labels** for all methods. We need to obtain the priori pose labels as inputs. Here we also provide a corresponding pose label file.
 
-##Training
-###plugin method
+## Training
+### plugin method
 Make sure all files in *LARNet/data/plugin* are prepared well.
 - Train the residual subnet:
 ```bash
@@ -81,7 +81,9 @@ python End2end_train.py
 ```
 After this, a model will be saved in the *--model_dir/checkpoint.pth.tar*
 
-##Testing
+## Testing
+### IJBA
+### CFP
 
 
 
