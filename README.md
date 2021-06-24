@@ -74,7 +74,7 @@ class Res_Subnet
 
 ### end2end method
 Make sure training datasets (e.g. MV1MV2) are prepared well.
-- Train the entire subnet:
+- Train the entire model (you can choose the type of ResNet, 18, 34, 50 and more):
 ```bash
 cd LARNet/src/end2end
 python End2end_train.py
