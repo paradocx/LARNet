@@ -83,17 +83,17 @@ After this, a model will be saved in the *--model_dir/checkpoint.pth.tar*
 If you want to change the gating control function or the architecture of residual subnet, you can change the part in the file *ResNet.py*.
 ```bash
 if self.end2end:
-            res_feature = self.fc1(m_feature)
-            res_feature = self.relu(res_feature)
-            res_feature = self.fc2(res_feature)
-            res_feature = self.relu(res_feature)
+    res_feature = self.fc1(m_feature)
+    res_feature = self.relu(res_feature)
+    res_feature = self.fc2(res_feature)
+    res_feature = self.relu(res_feature)
 
-            angle = angle.view(angle.size(0),1)
-            angle = angle.expand_as(res_feature)
+    angle = angle.view(angle.size(0),1)
+    angle = angle.expand_as(res_feature)
             
-            feature = angle * res_feature + m_feature
-        else:
-            feature = m_feature
+    feature = angle * res_feature + m_feature
+else:
+    feature = m_feature
 ```
 ## Testing
 ### IJBA
