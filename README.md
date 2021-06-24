@@ -1,5 +1,5 @@
 # LARNet: Lie Algebra ResNet 
-Code for our paper：*LARNet:Lie Algebra Residual Network for Profile Face Recognition*  (ICML2021 accepted).  Here is the [arxiv version] (https://arxiv.org/abs/2103.08147).
+Code for our paper：*LARNet:Lie Algebra Residual Network for Profile Face Recognition*  (ICML2021 accepted).  Here is the [arxiv version](https://arxiv.org/abs/2103.08147).
 
 ## Directory Structure
 ```
