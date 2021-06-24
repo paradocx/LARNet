@@ -80,7 +80,7 @@ cd LARNet/src/end2end
 python End2end_train.py
 ```
 After this, a model will be saved in the *--model_dir/checkpoint.pth.tar*
-
+(If you want to change the gating control function or the architecture of residual subnet, you can change the part in the file *ResNet.py*.)
 ## Testing
 ### IJBA
 ### CFP
