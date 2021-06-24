@@ -1,6 +1,7 @@
 # LARNet
 Code for the paper：&lt;LARNet:Lie Algebra Residual Network for Profile Face Recognition>(ICML2021)
 
+···
 >LARNet
 >├─ data
 >│    ├─ end2end                                        // The directory of training datasets for end2end
@@ -23,3 +24,4 @@ Code for the paper：&lt;LARNet:Lie Algebra Residual Network for Profile Face Re
 >└─test protocol
 >     ├─ IJBA
 >     ├─ CFP
+···
