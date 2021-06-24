@@ -8,7 +8,7 @@ LARNet
 │    ├─ end2end                                        // The directory of training datasets for end2end
 │    │                                                 //     e.g. MS1MV2
 │    └─ plugin                                         // The directory of requirments for plugin
-│           ├─ clean_feature.bin                       //     pretrained face model result, e.g. ArcFace,CosFace, and ours. Here we give a sample (ArcFace-MS1MV2, \#500)
+│           ├─ clean_feature.bin                       //     pretrained face model result, e.g. ArcFace,CosFace, and ours. Here we give a sample (ArcFace-MS1MV2, /#500)
 │           ├─ pose_estimation.txt                     //     pose prior labels
 │           └─ residual_sample_list.txt                //     The list of *clean_feature*
 ├─ src
