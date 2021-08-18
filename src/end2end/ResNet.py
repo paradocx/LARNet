@@ -64,7 +64,7 @@ class Bottleneck(nn.Module):
         super(Bottleneck, self).__init__()
         self.conv1 = conv1x1(inplanes, planes, stride)
         self.bn1 = nn.BatchNorm2d(planes)
-        self.conv2 = conv3x3(inplanes, planes, stride)
+        self.conv2 = conv3x3(planes, planes, stride)
         self.bn2 = nn.BatchNorm2d(planes)
         self.conv3 = conv1x1(planes, planes * 4, kernel_size=1)
         self.bn3 = nn.BatchNorm2d(planes * 4)
